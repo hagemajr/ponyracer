@@ -1,1 +1,1 @@
-{"pack":"86","id":4,"title":"Race detail","specs":[{"name":"src/app/races/races.spec.ts","hash":"94c88740cafd52024365a92344d9f8f233527bba0cfe27ae607f59b9f0133afe"},{"name":"src/app/race/race.spec.ts","hash":"4df741696df7ab77bd41b1246f02555654a324011de85bdcfc5b735a93c7dab8"}]}
+{"pack":"86","id":7,"title":"Custom pipe with date-fns","specs":[{"name":"src/app/from-now-pipe.spec.ts","hash":"28f9d72770f4d9ca91e7d2951db67256af177b22c6ee8699118c0e25506c4b18"},{"name":"src/app/race/race.spec.ts","hash":"83b903411347aa764e441acdb0f63a1247fcd55aa95de062a3b7bff603868a0a"}]}

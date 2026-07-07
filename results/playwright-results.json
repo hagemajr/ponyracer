@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 5
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 2,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 5
         },
         "id": "chromium",
         "name": "chromium",
@@ -87,12 +87,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 156,
+                      "duration": 183,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-04T23:32:33.158Z",
+                      "startTime": "2026-07-05T16:33:24.373Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -121,12 +121,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 155,
+                      "duration": 194,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-04T23:32:33.163Z",
+                      "startTime": "2026-07-05T16:33:24.375Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -155,12 +155,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 264,
+                      "duration": 231,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-04T23:32:33.163Z",
+                      "startTime": "2026-07-05T16:33:24.378Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -206,12 +206,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 155,
+                      "duration": 177,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-07-04T23:32:33.158Z",
+                      "startTime": "2026-07-05T16:33:24.373Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -223,6 +223,40 @@
               "file": "races.e2e-spec.ts",
               "line": 8,
               "column": 7
+            },
+            {
+              "title": "should display ponies",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 163,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-05T16:33:24.373Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d00a11b7894905e42f04-14adc6b46aba0cae62c5",
+              "file": "races.e2e-spec.ts",
+              "line": 15,
+              "column": 7
             }
           ]
         }
@@ -231,9 +265,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-04T23:32:32.975Z",
-    "duration": 562.128,
-    "expected": 4,
+    "startTime": "2026-07-05T16:33:24.158Z",
+    "duration": 573.327,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

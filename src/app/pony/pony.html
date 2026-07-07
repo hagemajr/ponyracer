@@ -1,0 +1,5 @@
+<figure (click)='ponyClicked()' (keydown.enter)='ponyClicked()'
+        tabindex='0'>
+  <img [src]='ponyImageUrl()' [alt]='ponyAlt()'/>
+  <figcaption>{{ ponyCaption() }}</figcaption>
+</figure>

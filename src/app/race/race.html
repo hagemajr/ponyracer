@@ -1,7 +1,7 @@
 <h2>{{raceModel().name}}</h2>
-
+<p>{{ raceModel().startInstant | fromNow }}</p>
 <ul>
   @for (pony of raceModel().ponies; track pony) {
-    <li>{{pony.name}}</li>
+    <li><pr-pony (ponySelected)="betOnPony($event)" [ponyModel]="pony"></pr-pony></li>
   }
 </ul>
